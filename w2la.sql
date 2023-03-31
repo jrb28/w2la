@@ -19,10 +19,6 @@
 -- Table structure for table `links`
 --
 
-DROP DATABASE IF EXISTS w2la;
-CREATE DATABASE w2la;
-USE w2la;
-
 DROP TABLE IF EXISTS `links`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
@@ -40,7 +36,7 @@ CREATE TABLE `links` (
 
 LOCK TABLES `links` WRITE;
 /*!40000 ALTER TABLE `links` DISABLE KEYS */;
-INSERT INTO `links` VALUES ('A','B',677),('A','DE',449),('A','OK',504),('B','A',904),('B','LA',115),('B','SD',677),('D','LR',319),('D','SD',1358),('D','W',1340),('DE','A',449),('DE','B',904),('DE','SL',851),('LA','B',115),('LA','SD',120),('LR','D',319),('LR','OK',389),('LR','W',1012),('OK','A',504),('OK','LR',389),('OK','SL',489),('SD','D',1358),('SD','LA',120),('SL','DE',851),('SL','OK',498),('SL','W',878),('W','D',1340),('W','LR',1012),('W','SL',878);
+INSERT INTO `links` VALUES ('A','B',677),('A','DE',449),('A','OK',504),('B','A',677),('B','DE',904),('B','LA',115),('D','LR',319),('D','SD',1358),('D','W',1340),('DE','A',449),('DE','B',904),('DE','SL',851),('LA','B',115),('LA','SD',120),('LR','D',319),('LR','OK',389),('LR','W',1012),('OK','A',504),('OK','LR',389),('OK','SL',489),('SD','D',1358),('SD','LA',120),('SL','DE',851),('SL','OK',498),('SL','W',878),('W','D',1340),('W','LR',1012),('W','SL',878);
 /*!40000 ALTER TABLE `links` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -81,4 +77,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-01-20  8:47:46
+-- Dump completed on 2023-03-31 14:47:24
