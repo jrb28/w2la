@@ -8,9 +8,9 @@ import mysql.connector as mysql
 
 def get_route():
     """ Return a route in the list route_soln wherein a route is specified by locations
-        abbreviations in the order that th elocations are visited starting with LA 
-        and ending with W.  Each pair of adjacent abbreviations must correspond to a 
-        valid single-link trip.
+        abbreviations in the order that the locations are visited starting with 'W' for 
+        Williamsburg and ending with 'LA'.  Each pair of adjacent abbreviations must 
+        correspond to a valid single-link trip.
    """
         
     user_name = "no_name"   # replace string with your username
